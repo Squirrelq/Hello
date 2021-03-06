@@ -1,4 +1,4 @@
-baseURL = "https://6043434aede354000830f297--blissful-cori-994d91.netlify.app/"
+baseURL = "/"
 title   = "Topwise Brewing"
 languageCode = "en-us"
 theme = "hello-friend-ng"
@@ -32,16 +32,13 @@ disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
 
-[permalinks]
-  posts = "/posts/:year/:month/:title/"
-
 [author]
   name = "Topwise Brewing - Melbourne, Australia"
 
-[taxonomies]
-  tag      = "tags"
-  category = "categories"
-  series   = "series"
+  # [taxonomies]
+  # tag      = "tags"
+  # category = "categories"
+  # series   = "series"
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -155,20 +152,20 @@ disableHugoGeneratorInject = false
   [[menu.main]]
     identifier = "about"
     name       = "About"
-    url        = "about/"
+    url        = "/about/"
     weight     = 1
   [[menu.main]]
     identifier = "find us"
     name       = "Find Our Beer"
-    url        = "find-us/"
+    url        = "/find-us/"
     weight     = 2
  [[menu.main]]
     identifier = "shop"
     name       = "Shop"
-    url        = "shop/"
+    url        = "/shop/"
     weight     = 3
  [[menu.main]]
     identifier = "contact"
     name       = "Contact"
-    url        = "contact/"
+    url        = "/contact/"
     weight     = 4
